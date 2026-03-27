@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 			item.classList.toggle('active');
 		});
 	});
-	const number = '573228608238';
+	const number = '573223749258';
 	const message = '¡Hola! 👋 ¿Me puedes enviar información y disponibilidad?';
 	const url = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 	document.querySelectorAll('.cta-btn').forEach((btn) => {
